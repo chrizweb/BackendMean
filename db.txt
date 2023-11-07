@@ -1,0 +1,10 @@
+CREATE TABLE [USERS](
+	[USER] [varchar](25) NOT NULL,
+  [EMAIL] [varchar](100) NOT NULL,
+	[NAME] [varchar](100) NULL,
+	[PASSWORD] [varchar](250) NOT NULL,
+	[STATE] [char](1) NOT NULL,
+	[CREATED_DATE] [datetime] NOT NULL
+)
+INSERT INTO [USERS] VALUES ('jperez', 'jperez@correo.com', 'JUAN PEREZ', '08I0lR0EsXW7iWP', 'A', CURRENT_TIMESTAMP)
+INSERT INTO [USERS] VALUES ('ralfaro', 'ralfaro@correo.com', 'ROBERTO ALFARO', '7cIG7kQfXS4kXeJ', 'A', CURRENT_TIMESTAMP)
